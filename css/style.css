@@ -1,0 +1,259 @@
+body{
+    background-color: white;
+    background-image: url('../images/bg.jpg');
+    color: white;
+}
+
+nav li{
+    display: flex;
+	border: solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 4px 2px;
+	border-radius: 16px;
+    color: white;
+}
+
+nav li a{
+  display: block;
+  color: #000;
+  list-style-type: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  background-color: orange;
+}
+
+.characters{
+    background-color:#FECC66;
+    background-image: none;
+    color:black;
+}
+
+.characters nav li a{
+    color:black;
+}
+
+.currentpage{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+i.fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 3em;
+}
+
+/*font awesome code took from font awesome website*/
+
+
+/*Google fonts code got from https://www.w3schools.com/howto/howto_google_fonts.asp*/
+/*Google fonts applied to all pages*/
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.skip-to-content{
+    position: absolute;
+    top: auto;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+a.skip-to-content:focus,
+a.skip-to-content:active{
+    text-align: center;
+    font-family: 'Alef';
+    font-size: 1.5em;
+    color: black;
+    top: auto;
+    left: auto;
+    width:100%;
+    height:auto;
+    overflow: visible;
+}
+
+.gallery{
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+
+section{
+  width: auto;
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid black;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+section img.memb{
+    width:100%;
+    max-width: 100%
+}
+
+@media screen and (max-width: 850px){
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+
+}
+
+section{
+    width:80%;
+}
+
+h1{
+    font-family: 'Alef';
+    font-size: 1.5em;
+    margin: 15px 7.5px;
+}
+
+h2{
+    font-family: 'Alef';
+    font-size: 1.25em;
+    margin: 15px 7.5px;
+}
+
+h3{
+    font-family: 'Alef';
+    font-size: 1em;
+    margin: 15px 7.5px;
+}
+
+p{
+    font-family: 'Alef';
+    font-size: 1.15em;
+    max-width: 80%;
+    padding: 0.15em;
+    margin: 0.3em;
+}
+
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1200px){
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+
+}
+
+section{
+    width:40%;
+    align-content: space-around;
+}
+
+nav li{
+    float: left;
+}
+
+p{
+    font-family: 'Alef';
+    font-size: 1.25em;
+    max-width: 80%;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+h1{
+    font-family: 'Alef';
+    font-size: 2em;
+    margin: 30px 10px;
+}
+
+h2{
+    font-family: 'Alef';
+    font-size: 1.5em;
+    margin: 20px 10px;
+}
+
+h3{
+    font-family: 'Alef';
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+nav li{
+	margin: 4px 15px;
+}
+
+nav li a{
+    font-size: 1.25em;
+}
+
+}
+
+
+@media screen and (min-width: 1200px){
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+
+}
+
+section{
+    width:28%;
+    align-content: space-around;
+}
+
+nav li{
+    float: left;
+}
+
+p{
+    font-family: 'Alef';
+    font-size: 2em;
+    max-width: 80%;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+h1{
+    font-family: 'Alef';
+    font-size: 3em;
+    margin: 30px 10px;
+}
+
+h2{
+    font-family: 'Alef';
+    font-size: 2.5em;
+    margin: 20px 10px;
+}
+
+h3{
+    font-family: 'Alef';
+    font-size: 2.25em;
+    margin: 10px;
+}
+
+nav li{
+	margin: 4px 25px;
+}
+
+nav li a{
+    font-size: 1.75em;
+}
